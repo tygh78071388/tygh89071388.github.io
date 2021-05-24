@@ -1,0 +1,8 @@
+@{ 
+    var myChart = new Chart(width: 600, height: 400)
+        .AddTitle("文樂雅年齡與體重對照圖")
+        .AddSeries(chartType: "column",
+        xValue: new[] { "1 月", "2 月", "3 月", "4 月", "5 月" },
+        yValues: new[] { "50", "52", "49", "48", "51"})
+        .Write();
+}
